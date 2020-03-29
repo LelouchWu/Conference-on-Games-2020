@@ -9,3 +9,5 @@ Running addiction_ae.py to reconstruct the input, if you want to test the perfor
 If one wants to directly test the performances,please use the TestData which contains 8 datasets. 7 of them, pp1-pp7, are  time-series without rebuilding. 
 
 Finally,running addiction_lstm.py to predict video game addiciton. One can change the parameter of layer_num to build stacked LSTM with different depth.
+
+If you seek the complete dataset we used and don't want to crawl data by yourselves, please contact wuq43@mcmaster.ca.
