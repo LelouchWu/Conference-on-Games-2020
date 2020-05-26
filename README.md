@@ -66,4 +66,5 @@ The hyperparameters we used:
     input size:24
     
 #############################
+The figure below is the survey results of qualitative experiment.
 ![image](https://github.com/LelouchWu/Qirui/blob/master/survey.png)
