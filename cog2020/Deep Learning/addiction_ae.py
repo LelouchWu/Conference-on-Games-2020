@@ -28,11 +28,12 @@ features = df.iloc[:,0:len(df.columns)-1]#colums:0-335,features
 features = stdsc.fit_transform(features)
 addiction_label = df.iloc[:,len(df.columns)-1:]#colums:336,label
 
+######### Hyper Parameters
 learning_rate = 0.001#Adam training——rate
 training_epochs = 500#number of epochs
 batch_size = 121#size of the dataset per time of one-epoch
 display_step = 10#print the index of cost which divide display_step
-
+######### Hyper Parameters
 train, test = df,df
 
 x_train = train.iloc[:,0:len(df.columns)-1]
@@ -43,9 +44,10 @@ x_test = test.iloc[:,0:len(df.columns)-1]
 x_test  = stdsc.fit_transform(x_test )
 y_test = test.iloc[:,len(df.columns)-1:]
 
-# Network Parameters
-n_hidden_1 = 200 # 1st layer num features
-n_hidden_2 =  100# 2nd layer num features
+######### Hyper Parameters
+n_hidden_1 = 256 # 1st layer num features
+n_hidden_2 =  128# 2nd layer num features
+######### Hyper Parameters
 n_input = x_train.shape[1] # input size
 #print(x_train.describe())
 
