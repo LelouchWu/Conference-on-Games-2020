@@ -11,9 +11,12 @@ If one wants to directly test the performances,please use the TestData which con
 Finally,running the code in deep learning to predict excessive gaming.
 #############################
 The hyperparameters we used:
+
 -> DAE
     Network: input size * 256 -sigmoid- 256*128 -sigmoid- feature vector -sigmoid- 128*256 - sigmoid- 256 * input siz
+    
     LR:e-3
+    
 -> RNN
     Network: input -batch normaliztion- RNN cell -dropout- RNN cell -dropout- RNN cell -batch normaliztion- 64 * 6 -SoftMax
     LR:4e-4
