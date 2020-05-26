@@ -66,4 +66,4 @@ The hyperparameters we used:
     input size:24
     
 #############################
-![image](Qirui/survey.png)
+![image](https://github.com/LelouchWu/Qirui/blob/master/survey.png)
