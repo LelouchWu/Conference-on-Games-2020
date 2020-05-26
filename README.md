@@ -1,5 +1,5 @@
 # Qirui
-Video Game Addiction For COG 2020
+Excessive gaming prediction COG 2020
 
 One can first use the code in "Web Crawler" to crawl the log data from LOL and PUBG. Please get a Userlist first which is then used to obtain corresponding data.
 
